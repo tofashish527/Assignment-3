@@ -10,19 +10,30 @@
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class=".adlam-display-regular">
-     <header class="relative">
+<body class="adlam-display-regular w-full break-words">
+     <header class="w-full">
         <nav class="bg-[#FFF9F4]">
            <div class="flex justify-around py-1">
-            <div class="flex">
-               <img src="c1-assets/logo-header.png" alt="" class="py-1">
+            <div class="flex justify-between gap-72">
+                <div class="flex">
+                    <img src="c1-assets/logo-header.png" alt="" class="py-1 left-0">
+                    <h3 class="text-2xl p-3 lg:block hidden">Browse<span class="text-yellow-300">4</span>Pets</h3>
+                 </div>
+                 <div class="lg:hidden pt-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                     </svg>
+                 </div>
+            </div>
+            <!-- <div class="flex">
+               <img src="c1-assets/logo-header.png" alt="" class="py-1 left-0">
                <h3 class="text-2xl p-3 lg:block hidden">Browse<span class="text-yellow-300">4</span>Pets</h3>
             </div>
-            <div class="lg:hidden">
+            <div class="lg:hidden absolute right-0">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-            </div>
+            </div> -->
             <div class="">
                 <ul class="lg:flex hidden space-x-4 p-4">
                     <li><a href="">Find a pet</a></li>
@@ -58,36 +69,36 @@
 
      </header>
 
-        <section class="pt-28 pb-20 w-[90%]">
-            <div class="mt-4 mb-4 lg:ml-32">
+        <section class="pt-28 pb-20 w-full mx-auto items-center">
+            <div class="mt-4 mb-4 ml-5 lg:ml-32 mx-auto items-center">
                 <h3 class="text-2xl font-bold">Browse By Categories</h2>
-                    <div class="pt-6 grid grid-cols-2 lg:grid-cols-6 gap-1 gap-x-0 sm:gap-1 mx-auto place-items-center w-full">
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                    <div class="pt-6 grid grid-cols-2 lg:grid-cols-6 gap-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/dog-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
                         </div>
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/fish-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
                         </div>
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/cat-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
                         </div>
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/rabbit-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
                         </div>
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/mouse-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
                         </div>
-                        <div class="items-center border rounded bg-[#F9DF8A] w-36 h-44 pt-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
                             <img src="c1-assets/bird-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
                             <h2 class="text-center">Dog</h2>
                             <p class="text-center">3 items</p>
@@ -99,7 +110,7 @@
         <section class="bg-[#FFF9F4] pt-20 mx-auto text-justify">
             <h3 class="text-2xl font-bold lg:ml-32 ml-5 pb-10">Trending Pet Products</h3>
             <div class="grid grid-cols-1 grid-rows-4 lg:grid-cols-2">
-                <div class="flex justify-between bg-[#F9DF8A]  w-[90%] lg:w-[450px] h-[80%] lg:h-[360px]  ml-5 lg:ml-32">
+                <div class="flex justify-between bg-[#F9DF8A]   ml-5 lg:ml-32">
                     <div class="ml-10">
                         <h2 class="text-xl font-bold pt-16 pb-2">T-Shirts for Cats</h2>
                         <p class="pb-2">Discover a world of toys,trees and<br>essencials handpicked for</p>
