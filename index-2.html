@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="adlam-display-regular">
-  <header>
+  <header class="mb-4 lg:mb-4">
        <nav class="bg-[#FFF9F4]">
         <div class="flex lg:justify-around justify-between">
             <div class="flex">
@@ -47,25 +47,228 @@
                 <button class= " bg-yellow-300 rounded text-sm h-9 w-24 mt-4">Register</button>
             </div>
         </div>
-        <hr class="block md:hidden border-t-2 border-black mt-2">
+        <hr class="block lg:hidden border-t-2 border-black mt-2">
        </nav>
 
-       <div class="lg:ml-20 mt-8 relative flex flex-col lg:flex-row lg:justify-around lg:gap-0 gap-0">
-        <div class="mt-4 lg:absolute lg:top-0 lg:left-0 lg:ml-8 text-wrap">
+        <div class="ml-5 mr-5 lg:mr-5 lg:ml-20 mt-8 relative flex flex-col lg:flex-row lg:justify-around lg:gap-0 gap-0">
+         <div class="mt-4 lg:absolute lg:top-0 lg:left-0 lg:ml-8 text-wrap">
             <h2 class="text-3xl font-bold lg:p-3 ">Pamper Your Pet,<br>Because They Deserve<br>the Best</h2>
             <p class="lg:p-2 lg:text-wrap ">Discover a world of treats, toys, and essentials handpicked for<br>your furry friends. Shop now and make tails wag with joy!</p>
-            <button class="bg-yellow-300 rounded text-sm h-9 w-24 mt-3 lg:p-2">Find a pet</button>
-        </div>
-        <div class="-mt-2 w-full lg:w-3/4 h-auto lg:h-4">
+            <button class="bg-yellow-300 rounded text-sm h-9 w-24 mt-3 lg:p-2 animate-bounce">Find a pet</button>
+         </div>
+         <div class="-mt-2 w-full lg:w-3/4 h-auto lg:h-4">
             <img src="c1-assets/cat-big.png" alt="">
+         </div>
         </div>
-    </div>
-    
-
-    
-  </header>
+    </header>
   <main>
+    <section class="lg:mt-[700px] mt-8 mb-8 lg:mb-16 w-full">
+      <div class="ml-5 mr-5 lg:mr-20 lg:ml-32 mx-auto items-center">
+         <h2 class="text-2xl">Browse By Categories</h2>
+         <div class="pt-5 grid grid-cols-2 lg:grid-cols-6 gap-2 lg:gap-6">
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/bird-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Bird</h2>
+            <p class="text-center pt-1">3 items</p>
+         </div>
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/cat-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Cat</h2>
+            <p class="text-center pt-1">4 items</p>
+         </div>
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/rabbit-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Rabbit</h2>
+            <p class="text-center pt-1">11 items</p>
+         </div>
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/dog-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Dog</h2>
+            <p class="text-center pt-1">7 items</p>
+         </div>
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/mouse-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Mouse</h2>
+            <p class="text-center pt-1">5 items</p>
+         </div>
+         <div class="items-center border rounded-lg bg-[#F9DF8A] pt-6 pb-6 lg:pt-6 lg:pb-6">
+            <img src="c1-assets/fish-cartoon.png" alt="" class="mx-auto border rounded-full p-5 bg-white">
+            <h2 class="text-center pt-3">Fish</h2>
+            <p class="text-center pt-1">9 items</p>
+         </div>
+         </div>
+        </div>
+     </section>
 
+     <section class="bg-[#FFF9F4] pt-10 pb-20">
+        <div class="ml-5 mr-5 lg:mr-20 lg:ml-20 mx-auto items-center">
+            <h2 class="text-2xl pt-10 pb-8 lg:ml-20">Trending Pet Products</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div class="flex justify-around border border-red-500 bg-[#F9DF8A] lg:ml-20 ">
+                     <div class="ml-5">
+                        <h2 class="text-2xl font-bold pt-4 pb-2">T-Shirts for Cats</h2>
+                        <p class="pb-2">Discover a world of toys,trees<br>essencials handpicked for</p>
+                        <button class= "mt-1 bg-white rounded px-4 py-1" >Shop Now</button>
+                     </div>
+                     <div class="" >
+                        <img src="c1-assets/cute-pet-mid.png" alt="" class="w-44 h-48 mt-10 lg:mt-24">
+                     </div>
+                </div>
+                <div class="grid grid-cols-2 grid-rows-4 lg:grid-cols-3 gap-5">
+                    <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex justify-">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+    
+                     <div class="pt-2 bg-white flex justify-around gap-2 max-sm:hidden border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/pet-couch.png" alt=""  class="mx-auto border rounded-lg p-2 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div> 
+                </div>
+            </div>
+        </div>
+        
+     </section>
+
+     <section class="mt-20 mb-15 ml-5 lg:ml-32">
+            
+     </section>
+
+  
   </main>
   <footer>
 
