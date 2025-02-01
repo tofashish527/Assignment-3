@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -264,37 +265,64 @@
         
      </section>
 
-   </main>
-   <footer class="mt-64 pt-64 pb-24 bg-[#F9DF8A] relative">
-      <div class="w-[80%] bg-[#FFF9F4] flex justify-around absolute left-[50%] top-[0%] z-1 -translate-x-1/2 -translate-y-1/2">
+     <section class="pt-20 pb-28 lg:pt-28 lg:pb-28">
+         <div class="ml-5 lg:ml-20 mr-5">
+            <h2 class="text-2xl pb-8 lg:ml-20">Everyday Low Price</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-0 mx-auto lg:items-center lg:ml-20 ">
+               <div class="flex justify-between border box-border rounded-lg bg-[linear-gradient(to_right,#F8CCFB,#ACD2FD)] mx-auto w-[100%]  h-[80%] lg:w-[750px] lg:h-[480px] lg:mr-2">
+                  <div class="lg:pt-20 lg:ml-10 ml-5">
+                     <p class="lg:block hidden">Under Price</p>
+                     <h2 class="text-xl">Per Grooming Mitt</h2>
+                     <p class="text-white lg:block hidden">(Easy Hair Removal)</p>
+                     <h2 class="text-white lg:text-black">$7.99</h2>
+                  </div>
+                  <div>
+                      <img src="c1-assets/cute-dog-mid.png" alt="" class="">
+                  </div>
+               </div>
+               <div class="flex justify-between  border box-border rounded-lg bg-[linear-gradient(to_right,#FFF9F4,#F9DF8A)] mx-auto w-[100%]  h-[80%] lg:w-[500px] lg:h-[480px] lg:ml-24">
+                   <div class="mx-auto p-2">
+                     <h2 class="pt-10 text-2xl">T-shirt for Dogs</h2>
+                     <h2 class="text-yellow-400 text-3xl pt-4">$7.99</h2>
+                   </div>
+                   <div>
+                       <img src="c1-assets/cute-pet-small.png" alt="">
+                   </div>
+               </div>
+            </div>
+         </div>
+     </section>
+ </main>
+   <footer class="w-full mt-64 pt-64 pb-12 bg-[#F9DF8A] relative sora">
+      <div class="w-[80%] mx-auto bg-[#FFF9F4] grid grid-cols-1 lg:grid-cols-2 gap-0 absolute left-[50%] top-[0%] z-1 -translate-x-1/2 -translate-y-1/2">
           <div>
-              <img src="c1-assets/cute-pet-mid.png" alt="">
+              <img src="c1-assets/cute-pet-mid.png" alt="" class="lg:ml-20 pt-10 ">
           </div>
-          <div class="pt-24">
+          <div class="text-center lg:text-justify text-wrap pb-10 lg:pt-12 lg:mr-16">
               <h2 class="text-2xl font-bold">Get Pawsome News!</h2>
               <p class="pt-4">Exclusive training tips, ticks, product deals and more.</p>
               <input type="email" placeholder=" Enter E-mail..." class="mt-4 w-72 h-8 rounded"><br>
               <button class= " bg-yellow-300 rounded px-4 py-1 mt-6" >Subscribe</button>
           </div>
       </div>
-          <div class="flex justify-around">
-              <div>
+          <div class="lg:ml-20 pt-24 grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-4 lg:space-x-10">
+              <div class="p-3">
                   <div class="flex">
                       <img src="c1-assets/logo-footer.png" alt="">
                        <h3 class="text-2xl p-3">Browse<span class="text-yellow-300">4</span>Pets</h3>
                   </div>
                        <p>Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends;</p>
               </div>
-              <div>
-                <ul>
+              <div class=" gap-y-3">
+                <ul class="p-3 lg:pt-2">
                   <li><a href="">Find a pet</a></li>
                   <li><a href="">Breeds</a></li>
                   <li><a href="">Contact us</a></li>
                 </ul>
               </div>
-              <div>
+              <div  class="p-3 lg:pt-4">
                   <h4>Follow Us</h4>
-                  <div>
+                  <div class="flex justify-items-center gap-4">
                       <i class="fa-brands fa-square-facebook"></i>
                       <i class="fa-brands fa-square-instagram"></i>
                       <i class="fa-brands fa-linkedin"></i>
