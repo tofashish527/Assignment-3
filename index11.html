@@ -1,0 +1,331 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen mx-auto adlam-display-regular overflow-x-hidden break-words">
+     <header class="w-full">
+        <nav class="bg-[#FFF9F4]">
+           <div class="flex justify-around py-1">
+            <div class="flex justify-between gap-72">
+                <div class="flex">
+                    <img src="c1-assets/logo-header.png" alt="" class="py-1 left-0">
+                    <h3 class="text-2xl p-3 lg:block hidden">Browse<span class="text-yellow-300">4</span>Pets</h3>
+                 </div>
+                 <div class="lg:hidden pt-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                     </svg>
+                 </div>
+            </div>
+            <div class="">
+                <ul class="lg:flex hidden space-x-4 p-4">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="lg:flex hidden">
+                <div class="flex p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>                       
+                </div>
+                <div class="p-4">
+                    <button class= "border-yellow-300 box-border border rounded px-5 py-1">Login </button> 
+                <button class= " bg-yellow-300 rounded px-4 py-1" >Register</button>
+                </div>
+            </div>
+           </div> 
+           <hr class="block md:hidden border-t-2 border-black mt-2">
+        </nav>
+        
+        <div class="mb-1 lg:ml-32 relative">
+          <div class="bg-[url('c1-assets/cat-big.png')] bg-cover bg-center w-full lg:h-[850px] h-[80vh] left-32">
+           <h1 class="text-4xl pt-20 font-bold">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
+           <p class="pt-4">Discover a world of treats, toys, and essentials handpicked for<br>your furry friends. Shop now and make tails wag with joy!</p>
+           <button class= " bg-yellow-300 rounded px-4 py-1 mt-4" >Find a pet</button>
+          </div>
+        </div>
+
+     </header>
+
+        <section class="pt-28 pb-20 w-full mx-auto items-center">
+            <div class="mt-4 mb-4 ml-5 lg:ml-32 mx-auto items-center">
+                <h3 class="text-2xl font-bold">Browse By Categories</h2>
+                    <div class="pt-6 grid grid-cols-2 lg:grid-cols-6 gap-4">
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/dog-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/fish-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/cat-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/rabbit-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/mouse-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                        <div class="items-center border rounded bg-[#F9DF8A] pt-4 pb-4">
+                            <img src="c1-assets/bird-cartoon.png" alt="" class="mx-auto border rounded-full p-4 bg-white">
+                            <h2 class="text-center">Dog</h2>
+                            <p class="text-center">3 items</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="bg-[#FFF9F4] pt-4 pb-0 mx-auto text-justify overflow-hidden">
+            <h3 class="text-2xl font-bold lg:ml-32 ml-5 pt-6 pb-4">Trending Pet Products</h3>
+            <div class="grid grid-cols-1 grid-rows-4 lg:grid-cols-2">
+                <div class="flex justify-between bg-[#F9DF8A]   ml-5 lg:ml-32">
+                    <div class="ml-10">
+                        <h2 class="text-xl font-bold pt-16 pb-2">T-Shirts for Cats</h2>
+                        <p class="pb-2">Discover a world of toys,trees and<br>essencials handpicked for</p>
+                        <button class= "mt-1 bg-white rounded px-4 py-1" >Shop Now</button>
+                    </div>
+                    <div class="w-64 h-72 mt-20" >
+                        <img src="c1-assets/cute-pet-mid.png" alt="" class="w-[90%] h-[70%]">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-3 ml-5 gap-1 sm:gap-1 mx-auto place-items-center w-full">
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>
+
+                     <div class="pt-2 bg-white flex justify-around gap-3 w-[190px] h-[90px] max-sm:hidden border rounded border-gray-400">
+                        <div>
+                          <img src="c1-assets/dog-cartoon.png" alt=""  class="mx-auto border rounded-lg p-3 bg-[#FFF9F4]">
+                        </div>
+                        <div>
+                           <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" class="size-6">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                              </svg>
+                               <p>4.5</p>                              
+                           </div>
+                           <h2>Pet Bed</h2>
+                           <h2>$4.99</h2>
+                        </div>
+                     </div>    
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-20 mb-15 ml-5 lg:ml-32">
+            <h2 class="text-2xl font-bold pb-8">Everyday Low price</h2>
+            <div class="flex flex-col md:flex-row gap-5">
+                <div class="flex justify-between bg-[linear-gradient(to_right,#F8CCFB,#ACD2FD)] w-[90%]  h-[80%] lg:w-[750px] lg:h-[480px]">
+                    <div class="text-justify mx-auto pt-32">
+                      <p>Under price</p>
+                      <h2 class="text-xl font-bold">Pet Grooming Mitt</h2>
+                      <p class="text-white">(Easy Hair Removal)</p>
+                      <h2 class="text-3xl font-bold">$7.99</h2>
+                    </div>
+                    <div>
+                     <img src="c1-assets/cute-dog-mid.png" alt="" >
+                    </div>
+                 </div>
+     
+                 <div class="flex justify-between bg-[linear-gradient(to_right,#FFF9F4,#F9DF8A)] w-[500px] h-[480px]">
+                     <div class="mx-auto text-justify pt-32">
+                         <h2 class="font-bold text-xl">T-shirt for dogs</h2>
+                         <p class="font-bold text-3xl text-yellow-300">$7.99</p>
+                     </div>
+                    <div>
+                     <img src="c1-assets/cute-pet-mid.png" alt="">
+                    </div>
+                 </div>
+
+            </div>
+            
+        </section>
+       
+        
+     <footer class="mt-64 pt-64 pb-24 bg-[#F9DF8A] relative">
+        <div class="w-[80%] bg-[#FFF9F4] flex justify-around absolute left-[50%] top-[0%] z-1 -translate-x-1/2 -translate-y-1/2">
+            <div>
+                <img src="c1-assets/cute-pet-mid.png" alt="">
+            </div>
+            <div class="pt-24">
+                <h2 class="text-2xl font-bold">Get Pawsome News!</h2>
+                <p class="pt-4">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" placeholder=" Enter E-mail..." class="mt-4 w-72 h-8 rounded"><br>
+                <button class= " bg-yellow-300 rounded px-4 py-1 mt-6" >Subscribe</button>
+            </div>
+        </div>
+            <div class="flex justify-around">
+                <div>
+                    <div class="flex">
+                        <img src="c1-assets/logo-footer.png" alt="">
+                         <h3 class="text-2xl p-3">Browse<span class="text-yellow-300">4</span>Pets</h3>
+                    </div>
+                         <p>Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends;</p>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                  </ul>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <div>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+     </footer>    
+</body>
+</html> -->
